@@ -30,19 +30,32 @@
 		00E356EE1AD99517003FC87E /* LearnRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LearnRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnRNTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* LearnRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* LearnRN Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearnRN Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LearnRN/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = LearnRN/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LearnRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LearnRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LearnRN/main.m; sourceTree = "<group>"; };
+		17862D3900C9D30B838EB285 /* Pods-LearnRN-LearnRNTests.debugstag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.debugstag.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.debugstag.xcconfig"; sourceTree = "<group>"; };
+		1789DC67195F92BAD1838DB6 /* Pods-LearnRN-LearnRNTests.releasestag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.releasestag.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.releasestag.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-LearnRN-LearnRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnRN-LearnRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28738F5771EEBAAD2352CAC0 /* Pods-LearnRN.releasestag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.releasestag.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.releasestag.xcconfig"; sourceTree = "<group>"; };
+		295746BBADE76DE511432357 /* Pods-LearnRN.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.debugprod.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.debugprod.xcconfig"; sourceTree = "<group>"; };
+		32118315BF7CF69DF9C02A0A /* Pods-LearnRN-LearnRNTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.debugdev.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-LearnRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.debug.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-LearnRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.release.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-LearnRN-LearnRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.debug.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-LearnRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B682A4804067F082DA0A892 /* Pods-LearnRN.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.releaseprod.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		78BFC0533A56E0BAF3DD43DC /* Pods-LearnRN-LearnRNTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		7FCFA60AB4449DA9A84E7B0C /* Pods-LearnRN.debugstag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.debugstag.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.debugstag.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LearnRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-LearnRN-LearnRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.release.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		A916FDA3A36C0946EC159DBA /* Pods-LearnRN-LearnRNTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.debugprod.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		B952A981F2F7CBA139371ABB /* Pods-LearnRN.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.debugdev.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.debugdev.xcconfig"; sourceTree = "<group>"; };
+		D93231332AFBD703006F351E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2D82FE14D63DB301FFC37EC /* Pods-LearnRN.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN.releasedev.xcconfig"; path = "Target Support Files/Pods-LearnRN/Pods-LearnRN.releasedev.xcconfig"; sourceTree = "<group>"; };
+		E3B3FEFD8E6024BE3920CD2B /* Pods-LearnRN-LearnRNTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRN-LearnRNTests.releasedev.xcconfig"; path = "Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests.releasedev.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -116,6 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D93231332AFBD703006F351E /* Config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* LearnRN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LearnRNTests */,
@@ -131,7 +145,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* LearnRN.app */,
+				13B07F961A680F5B00A75B9A /* LearnRN Dev.app */,
 				00E356EE1AD99517003FC87E /* LearnRNTests.xctest */,
 			);
 			name = Products;
@@ -144,6 +158,18 @@
 				5709B34CF0A7D63546082F79 /* Pods-LearnRN.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-LearnRN-LearnRNTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-LearnRN-LearnRNTests.release.xcconfig */,
+				B952A981F2F7CBA139371ABB /* Pods-LearnRN.debugdev.xcconfig */,
+				7FCFA60AB4449DA9A84E7B0C /* Pods-LearnRN.debugstag.xcconfig */,
+				295746BBADE76DE511432357 /* Pods-LearnRN.debugprod.xcconfig */,
+				E2D82FE14D63DB301FFC37EC /* Pods-LearnRN.releasedev.xcconfig */,
+				28738F5771EEBAAD2352CAC0 /* Pods-LearnRN.releasestag.xcconfig */,
+				6B682A4804067F082DA0A892 /* Pods-LearnRN.releaseprod.xcconfig */,
+				32118315BF7CF69DF9C02A0A /* Pods-LearnRN-LearnRNTests.debugdev.xcconfig */,
+				17862D3900C9D30B838EB285 /* Pods-LearnRN-LearnRNTests.debugstag.xcconfig */,
+				A916FDA3A36C0946EC159DBA /* Pods-LearnRN-LearnRNTests.debugprod.xcconfig */,
+				E3B3FEFD8E6024BE3920CD2B /* Pods-LearnRN-LearnRNTests.releasedev.xcconfig */,
+				1789DC67195F92BAD1838DB6 /* Pods-LearnRN-LearnRNTests.releasestag.xcconfig */,
+				78BFC0533A56E0BAF3DD43DC /* Pods-LearnRN-LearnRNTests.releaseprod.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -168,6 +194,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = LearnRNTests;
+			productName = LearnRNTests;
 			productReference = 00E356EE1AD99517003FC87E /* LearnRNTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -183,6 +210,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				D93231342AFBD7B2006F351E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -190,7 +218,7 @@
 			);
 			name = LearnRN;
 			productName = LearnRN;
-			productReference = 13B07F961A680F5B00A75B9A /* LearnRN.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* LearnRN Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -343,6 +371,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnRN-LearnRNTests/Pods-LearnRN-LearnRNTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D93231342AFBD7B2006F351E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb\" \"${SRCROOT}/..\" \"${SRCROOT}/tmp.xcconfig\"\n";
+		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,9 +472,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
+		00E356F61AD99517003FC87E /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-LearnRN-LearnRNTests.debug.xcconfig */;
+			baseConfigurationReference = 32118315BF7CF69DF9C02A0A /* Pods-LearnRN-LearnRNTests.debugdev.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -452,11 +497,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
 			};
-			name = Debug;
+			name = DebugDev;
 		};
-		00E356F71AD99517003FC87E /* Release */ = {
+		00E356F71AD99517003FC87E /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-LearnRN-LearnRNTests.release.xcconfig */;
+			baseConfigurationReference = E3B3FEFD8E6024BE3920CD2B /* Pods-LearnRN-LearnRNTests.releasedev.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -476,11 +521,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
 			};
-			name = Release;
+			name = ReleaseDev;
 		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
+		13B07F941A680F5B00A75B9A /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LearnRN.debug.xcconfig */;
+			baseConfigurationReference = B952A981F2F7CBA139371ABB /* Pods-LearnRN.debugdev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,6 +533,9 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LearnRN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,23 +546,26 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
-				PRODUCT_NAME = LearnRN;
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn.dev;
+				PRODUCT_NAME = "LearnRN Dev";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = DebugDev;
 		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
+		13B07F951A680F5B00A75B9A /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LearnRN.release.xcconfig */;
+			baseConfigurationReference = E2D82FE14D63DB301FFC37EC /* Pods-LearnRN.releasedev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = LearnRN/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,19 +576,20 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
-				PRODUCT_NAME = LearnRN;
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn.dev;
+				PRODUCT_NAME = "LearnRN Dev";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Release;
+			name = ReleaseDev;
 		};
-		83CBBA201A601CBA00E9B192 /* Debug */ = {
+		83CBBA201A601CBA00E9B192 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -609,14 +661,15 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = DebugDev;
 		};
-		83CBBA211A601CBA00E9B192 /* Release */ = {
+		83CBBA211A601CBA00E9B192 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -684,7 +737,541 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = ReleaseDev;
+		};
+		D93231272AFBCA0F006F351E /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = DebugProd;
+		};
+		D93231282AFBCA0F006F351E /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295746BBADE76DE511432357 /* Pods-LearnRN.debugprod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LearnRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = LearnRN;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugProd;
+		};
+		D93231292AFBCA0F006F351E /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A916FDA3A36C0946EC159DBA /* Pods-LearnRN-LearnRNTests.debugprod.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LearnRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
+			};
+			name = DebugProd;
+		};
+		D932312A2AFBCA19006F351E /* DebugStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = DebugStag;
+		};
+		D932312B2AFBCA19006F351E /* DebugStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCFA60AB4449DA9A84E7B0C /* Pods-LearnRN.debugstag.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LearnRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn.staging;
+				PRODUCT_NAME = "LearnRN Staging";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugStag;
+		};
+		D932312C2AFBCA19006F351E /* DebugStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17862D3900C9D30B838EB285 /* Pods-LearnRN-LearnRNTests.debugstag.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LearnRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
+			};
+			name = DebugStag;
+		};
+		D932312D2AFBCA21006F351E /* ReleaseStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseStag;
+		};
+		D932312E2AFBCA21006F351E /* ReleaseStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28738F5771EEBAAD2352CAC0 /* Pods-LearnRN.releasestag.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = LearnRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn.staging;
+				PRODUCT_NAME = "LearnRN Staging";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseStag;
+		};
+		D932312F2AFBCA21006F351E /* ReleaseStag */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1789DC67195F92BAD1838DB6 /* Pods-LearnRN-LearnRNTests.releasestag.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = LearnRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
+			};
+			name = ReleaseStag;
+		};
+		D93231302AFBCA29006F351E /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93231332AFBD703006F351E /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseProd;
+		};
+		D93231312AFBCA29006F351E /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B682A4804067F082DA0A892 /* Pods-LearnRN.releaseprod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = LearnRN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnRN;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = LearnRN;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseProd;
+		};
+		D93231322AFBCA29006F351E /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BFC0533A56E0BAF3DD43DC /* Pods-LearnRN-LearnRNTests.releaseprod.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = LearnRNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.aedev.learn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnRN.app/LearnRN";
+			};
+			name = ReleaseProd;
 		};
 /* End XCBuildConfiguration section */
 
@@ -692,29 +1279,41 @@
 		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LearnRNTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
+				00E356F61AD99517003FC87E /* DebugDev */,
+				D932312C2AFBCA19006F351E /* DebugStag */,
+				D93231292AFBCA0F006F351E /* DebugProd */,
+				00E356F71AD99517003FC87E /* ReleaseDev */,
+				D932312F2AFBCA21006F351E /* ReleaseStag */,
+				D93231322AFBCA29006F351E /* ReleaseProd */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseDev;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LearnRN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
+				13B07F941A680F5B00A75B9A /* DebugDev */,
+				D932312B2AFBCA19006F351E /* DebugStag */,
+				D93231282AFBCA0F006F351E /* DebugProd */,
+				13B07F951A680F5B00A75B9A /* ReleaseDev */,
+				D932312E2AFBCA21006F351E /* ReleaseStag */,
+				D93231312AFBCA29006F351E /* ReleaseProd */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseDev;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LearnRN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Debug */,
-				83CBBA211A601CBA00E9B192 /* Release */,
+				83CBBA201A601CBA00E9B192 /* DebugDev */,
+				D932312A2AFBCA19006F351E /* DebugStag */,
+				D93231272AFBCA0F006F351E /* DebugProd */,
+				83CBBA211A601CBA00E9B192 /* ReleaseDev */,
+				D932312D2AFBCA21006F351E /* ReleaseStag */,
+				D93231302AFBCA29006F351E /* ReleaseProd */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseDev;
 		};
 /* End XCConfigurationList section */
 	};
