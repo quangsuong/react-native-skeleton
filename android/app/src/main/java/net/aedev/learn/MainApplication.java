@@ -1,4 +1,4 @@
-package com.learn_react_native;
+package net.aedev.learn;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

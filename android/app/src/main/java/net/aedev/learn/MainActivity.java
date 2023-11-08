@@ -1,4 +1,4 @@
-package com.learn_react_native;
+package net.aedev.learn;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "learn_react_native";
+    return "LearnRN";
   }
 
   /**
