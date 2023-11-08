@@ -8,9 +8,11 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "re-package": "npx react-native-rename learnrn -b net.aedev.learn"
+    "re-package": "npx react-native-rename learnrn -b net.aedev.learn",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "husky": "^8.0.3",
     "react": "18.2.0",
     "react-native": "0.72.6"
   },
