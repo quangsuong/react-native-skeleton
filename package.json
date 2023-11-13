@@ -5,6 +5,12 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "ios:dev": "react-native run-ios --scheme LearnRNDev --configuration DebugDev",
+    "ios:staging" : "react-native run-ios --scheme LearnRNStaging --configuration DebugStag",
+    "ios:prod" : "react-native run-ios --scheme LearnRNProd --configuration DebugProd",
+    "android:dev": "react-native run-android --no-jetifier --variant=devDebug --appId 'com.demoenv.app.dev'",
+    "android:staging": "react-native run-android --no-jetifier --variant=stagingDebug --appId 'com.demoenv.app.stg'",
+    "android:prod": "react-native run-android --no-jetifier --variant=productDebug --appId 'com.demoenv.app.prod'",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
@@ -14,7 +20,8 @@
   "dependencies": {
     "husky": "^8.0.3",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-config": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
