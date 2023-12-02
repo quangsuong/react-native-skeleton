@@ -1,15 +1,18 @@
 import React, {useEffect} from 'react';
+import { I18nextProvider, useTranslation } from "react-i18next";
 import {
   SafeAreaView,
   ScrollView,
-  StatusBar,
+  StatusBar, Text,
   useColorScheme,
-  View,
-} from 'react-native';
+  View
+} from "react-native";
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import SplashScreen from 'react-native-lottie-splash-screen';
+import i18n from '@utils/i18n/i18n';
 const App = () => {
+  const [t] = useTranslation()
   const isDarkMode = useColorScheme() === 'dark';
   useEffect(() => {
     setTimeout(() => {
@@ -21,8 +24,8 @@ const App = () => {
   };
 
   return (
-    <View>
       <SafeAreaView style={backgroundStyle}>
+        <I18nextProvider i18n={i18n}>
         <StatusBar
           barStyle={isDarkMode ? 'light-content' : 'dark-content'}
           backgroundColor={backgroundStyle.backgroundColor}
@@ -34,10 +37,12 @@ const App = () => {
             style={{
               backgroundColor: isDarkMode ? Colors.black : Colors.white,
             }}>
+            <Text>{t('alert:login_another')}</Text>
+            <Text>{t('alert:login_another')}</Text>
           </View>
         </ScrollView>
+        </I18nextProvider>
       </SafeAreaView>
-    </View>
   );
 };
 
