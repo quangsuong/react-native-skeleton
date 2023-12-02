@@ -1,0 +1,12 @@
+**/node_modules
+**/build
+**/android
+**/ios
+
+## file extensions
+*.*
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+!*.yml
