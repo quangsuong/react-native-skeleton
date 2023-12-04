@@ -1,16 +1,25 @@
 import React, {useEffect} from 'react';
 import { I18nextProvider, useTranslation } from "react-i18next";
 import {
-  SafeAreaView,
   ScrollView,
   StatusBar, Text,
   useColorScheme,
-  View
+  View,
+  StyleSheet
 } from "react-native";
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import SplashScreen from 'react-native-lottie-splash-screen';
 import i18n from '@utils/i18n/i18n';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import AppContainer from '@navigation/app-navigation';
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+  },
+});
 const App = () => {
   const [t] = useTranslation()
   const isDarkMode = useColorScheme() === 'dark';
@@ -24,25 +33,13 @@ const App = () => {
   };
 
   return (
-      <SafeAreaView style={backgroundStyle}>
+      <SafeAreaProvider style={backgroundStyle}>
         <I18nextProvider i18n={i18n}>
-        <StatusBar
-          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-          backgroundColor={backgroundStyle.backgroundColor}
-        />
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={backgroundStyle}>
-          <View
-            style={{
-              backgroundColor: isDarkMode ? Colors.black : Colors.white,
-            }}>
-            <Text>{t('alert:login_another')}</Text>
-            <Text>{t('alert:login_another')}</Text>
-          </View>
-        </ScrollView>
+          <GestureHandlerRootView style={styles.root}>
+            <AppContainer />
+          </GestureHandlerRootView>
         </I18nextProvider>
-      </SafeAreaView>
+      </SafeAreaProvider>
   );
 };
 

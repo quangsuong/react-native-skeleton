@@ -1,0 +1,25 @@
+export const AnimationFiles = {
+  loading: require('./loading.json'),
+  ic_service: require('./ic_service.json'),
+  ic_qr: require('./ic_qr.json'),
+  ic_logo: require('./ic_logo.json'),
+  ic_gift: require('./ic_gift.json'),
+  ic_setting: require('./ic_setting.json'),
+  ic_arrow: require('./arrow.json'),
+  ic_shake: require('./shake.json'),
+  ic_touch: require('./touch.json'),
+  introduction: require('./introduction.json'),
+  transfer_success_ani: require('./transfer_success_ani.json'),
+  nfc_guide_ios: require('./nfc_guide_ios.json'),
+  nfc_guide_android: require('./nfc_guide_android.json'),
+  rocket_codepush: require('./rocket_codepush.json'),
+  priority: require('./priority.json'),
+  transfer_error_v2: require('./transfer_error_v2.json'),
+  transfer_pending: require('./pending.json'),
+  transfer_fail: require('./transfer_error_v21.json'),
+  rocket_codepush_fly: require('./rocket_codepush_fly.json'),
+  ic_loading: require('./ic_loading.json'),
+  ic_rocket: require('./ic_rocket.json'),
+};
+
+export type AnimationFileTypes = keyof typeof AnimationFiles;

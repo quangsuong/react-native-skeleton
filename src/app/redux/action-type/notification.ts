@@ -1,0 +1,6 @@
+import { SLICE_NAME } from '@config/type';
+
+export const GET_MORE_BALANCES = SLICE_NAME + 'GET_MORE_BALANCES';
+export const RELOAD_LIST_BALANCE = SLICE_NAME + 'RELOAD_LIST_BALANCE';
+
+export const GET_TOTAL_UNREAD = SLICE_NAME + 'GET_TOTAL_UNREAD';
