@@ -1,21 +1,43 @@
-import  React from 'react';
+import  React, {useState} from 'react';
 import {
-    Button,
     Text,
-    View
+    View,
+    TextInput,
+    Button
 } from "react-native";
-
-import { decrement, increment, selectApp } from '@redux/slices';
-import { useAppDispatch, useAppSelector } from '@redux/store';
+ 
+import { login } from '@redux/slices';
+import { AppThunkDispatch } from '@redux/store';
+import { useDispatch } from 'react-redux';
 
 export default function Login () {
-    const {count} = useAppSelector(selectApp);
-    const dispatch = useAppDispatch();
+  const dispatch = useDispatch<AppThunkDispatch>();
+
+  const [username, setUsername] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+
+  const handleLogin = ()=>{
+    dispatch(login({ username, password }));
+  }
+
   return (
     <View>
-        <Text>{count}</Text>
-        <Button title='+' onPress={()=>dispatch(increment())} />
-        <Button title='-' onPress={()=>dispatch(decrement())} />
+        <Text>Login</Text>
+        <View>
+          <Text>Username:</Text>
+          <TextInput
+            onChangeText={setUsername}
+            value={username}
+          />
+        </View>
+        <View>
+          <Text>Password:</Text>
+          <TextInput
+            onChangeText={setPassword}
+            value={password}
+          />
+        </View>
+        <Button title='Login' onPress={handleLogin} />
     </View>
   );
 }
