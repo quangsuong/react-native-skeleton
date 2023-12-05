@@ -36,7 +36,9 @@
     "select": "Select"
   },
   "text": {
-    "menu": "menu"
+    "menu": "menu",
+    "logout": "Đăng xuất",
+    "changeLanguage": "Đổi ngôn ngữ"
   },
   "alert": {
     "notify": "Thông báo",
