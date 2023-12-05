@@ -9,7 +9,7 @@ import reducer, {RootState} from './slices';
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['auth'],
+  whitelist: ['auth', 'app'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducer);

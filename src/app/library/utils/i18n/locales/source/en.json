@@ -36,7 +36,9 @@
     "select": "Select"
   },
   "text": {
-    "menu": "menu"
+    "menu": "menu",
+    "logout": "Logout",
+    "changeLanguage": "Change language"
   },
   "alert": {
     "notify": "Notification",
